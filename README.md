@@ -8,7 +8,7 @@
 Запустите приложение:
   java -jar target/IssuingStubKafka-0.0.1-SNAPSHOT.jar
 Или запустите с указанием главного класса:
-  java -jar IssuingStubKafka-0.0.1-SNAPSHOT.jar com.example.IssuingStubKafka.IssuingStubKafkaApplication
+  java -jar target/IssuingStubKafka-0.0.1-SNAPSHOT.jar com.example.IssuingStubKafka.IssuingStubKafkaApplication
 
 # Пример запроса:
 
