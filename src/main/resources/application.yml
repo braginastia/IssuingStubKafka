@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: IssuingStubKafka
+  kafka:
+    bootstrap-servers:
+      localhost:9092
+
+kafka:
+  topic:
+    name:
+      test
+
+logging:
+  file:
+    name: IssuingStubKafka.log
+  level:
+    com.example.IssuingStubKafka: INFO
+
+stub:
+  delay:
+    seconds: 1

@@ -1,0 +1,1 @@
+java -jar IssuingStubKafka-0.0.1-SNAPSHOT.jar com.example.IssuingStubKafka.IssuingStubKafkaApplication

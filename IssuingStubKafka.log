@@ -1,0 +1,88 @@
+2025-09-17T10:17:30.154+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:17:30.197+05:00  INFO 8844 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-17T10:17:30.203+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=IssuingStubKafka-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-09-17T10:17:30.222+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-09-17T10:17:30.222+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-09-17T10:17:30.222+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-09-17T10:17:30.222+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-09-17T10:17:30.224+05:00  INFO 8844 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for IssuingStubKafka-producer-1 unregistered
+2025-09-17T10:22:19.750+05:00  INFO 26196 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Starting IssuingStubKafkaApplicationTests using Java 21.0.7 with PID 26196 (started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:22:19.752+05:00  INFO 26196 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:22:22.930+05:00  INFO 26196 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:22:23.075+05:00  INFO 26196 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Started IssuingStubKafkaApplicationTests in 3.861 seconds (process running for 5.433)
+2025-09-17T10:22:28.098+05:00  INFO 29600 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Starting IssuingStubKafkaApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 29600 (C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka\target\IssuingStubKafka-0.0.1-SNAPSHOT.jar started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:22:28.103+05:00  INFO 29600 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:22:30.078+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-17T10:22:30.096+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-17T10:22:30.096+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-09-17T10:22:30.128+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-17T10:22:30.129+05:00  INFO 29600 --- [IssuingStubKafka] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1916 ms
+2025-09-17T10:22:31.221+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:22:31.373+05:00  INFO 29600 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-17T10:22:31.388+05:00  INFO 29600 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Started IssuingStubKafkaApplication in 4.139 seconds (process running for 5.082)
+2025-09-17T10:23:00.577+05:00  INFO 29600 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:23:00.608+05:00  INFO 29600 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-17T10:23:27.493+05:00  INFO 28036 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Starting IssuingStubKafkaApplicationTests using Java 21.0.7 with PID 28036 (started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:23:27.495+05:00  INFO 28036 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:23:30.379+05:00  INFO 28036 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:23:30.492+05:00  INFO 28036 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Started IssuingStubKafkaApplicationTests in 3.435 seconds (process running for 4.825)
+2025-09-17T10:23:35.146+05:00  INFO 13836 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Starting IssuingStubKafkaApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 13836 (C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka\target\IssuingStubKafka-0.0.1-SNAPSHOT.jar started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:23:35.149+05:00  INFO 13836 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:23:37.015+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-17T10:23:37.030+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-17T10:23:37.030+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-09-17T10:23:37.057+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-17T10:23:37.058+05:00  INFO 13836 --- [IssuingStubKafka] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1821 ms
+2025-09-17T10:23:38.086+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:23:38.227+05:00  INFO 13836 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-17T10:23:38.245+05:00  INFO 13836 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Started IssuingStubKafkaApplication in 3.976 seconds (process running for 4.769)
+2025-09-17T10:30:32.301+05:00  INFO 13836 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:30:32.332+05:00  INFO 13836 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-17T10:34:06.440+05:00  INFO 5080 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Starting IssuingStubKafkaApplicationTests using Java 21.0.7 with PID 5080 (started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:34:06.442+05:00  INFO 5080 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:34:09.266+05:00  INFO 5080 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:34:09.390+05:00  INFO 5080 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Started IssuingStubKafkaApplicationTests in 3.34 seconds (process running for 4.813)
+2025-09-17T10:34:13.852+05:00  INFO 17356 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Starting IssuingStubKafkaApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 17356 (C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka\target\IssuingStubKafka-0.0.1-SNAPSHOT.jar started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:34:13.858+05:00  INFO 17356 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:34:15.706+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-17T10:34:15.725+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-17T10:34:15.725+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-09-17T10:34:15.752+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-17T10:34:15.753+05:00  INFO 17356 --- [IssuingStubKafka] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2025-09-17T10:34:16.815+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:34:16.961+05:00  INFO 17356 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-17T10:34:16.978+05:00  INFO 17356 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Started IssuingStubKafkaApplication in 3.993 seconds (process running for 4.915)
+2025-09-17T10:34:34.204+05:00  INFO 17356 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:34:34.234+05:00  INFO 17356 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-17T10:34:44.668+05:00  INFO 1612 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Starting IssuingStubKafkaApplicationTests using Java 21.0.7 with PID 1612 (started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:34:44.670+05:00  INFO 1612 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:34:47.432+05:00  INFO 1612 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:34:47.523+05:00  INFO 1612 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Started IssuingStubKafkaApplicationTests in 3.28 seconds (process running for 4.547)
+2025-09-17T10:34:52.348+05:00  INFO 23760 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Starting IssuingStubKafkaApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 23760 (C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka\target\IssuingStubKafka-0.0.1-SNAPSHOT.jar started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:34:52.354+05:00  INFO 23760 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:34:54.415+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-17T10:34:54.432+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-17T10:34:54.432+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-09-17T10:34:54.462+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-17T10:34:54.463+05:00  INFO 23760 --- [IssuingStubKafka] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2001 ms
+2025-09-17T10:34:55.524+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:34:55.664+05:00  INFO 23760 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-17T10:34:55.685+05:00  INFO 23760 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Started IssuingStubKafkaApplication in 4.33 seconds (process running for 5.236)
+2025-09-17T10:35:19.684+05:00  INFO 23760 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:35:19.715+05:00  INFO 23760 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-17T10:35:30.344+05:00  INFO 30692 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Starting IssuingStubKafkaApplicationTests using Java 21.0.7 with PID 30692 (started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:35:30.346+05:00  INFO 30692 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:35:33.215+05:00  INFO 30692 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:35:33.356+05:00  INFO 30692 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplicationTests   : Started IssuingStubKafkaApplicationTests in 3.493 seconds (process running for 5.004)
+2025-09-17T10:35:38.139+05:00  INFO 1280 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Starting IssuingStubKafkaApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 1280 (C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka\target\IssuingStubKafka-0.0.1-SNAPSHOT.jar started by bragi in C:\Users\bragi\OneDrive\Документы\Git\IssuingStubKafka)
+2025-09-17T10:35:38.141+05:00  INFO 1280 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T10:35:39.924+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-17T10:35:39.940+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-17T10:35:39.940+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-09-17T10:35:39.973+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-17T10:35:39.974+05:00  INFO 1280 --- [IssuingStubKafka] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1753 ms
+2025-09-17T10:35:40.999+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-09-17T10:35:41.129+05:00  INFO 1280 --- [IssuingStubKafka] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-17T10:35:41.146+05:00  INFO 1280 --- [IssuingStubKafka] [main] c.e.I.IssuingStubKafkaApplication        : Started IssuingStubKafkaApplication in 3.946 seconds (process running for 4.818)
+2025-09-17T10:36:15.248+05:00  INFO 1280 --- [IssuingStubKafka] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17T10:36:15.278+05:00  INFO 1280 --- [IssuingStubKafka] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
